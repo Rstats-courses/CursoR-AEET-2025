@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://Rstats-courses.github.io/CursoR-AEET-2025/materials.html</loc>
-    <lastmod>2024-10-16T10:24:02.183Z</lastmod>
+    <loc>https://Rstats-courses.github.io/CursoR-AEET-2025/preparativos.html</loc>
+    <lastmod>2024-10-16T15:30:24.655Z</lastmod>
   </url>
   <url>
-    <loc>https://Rstats-courses.github.io/CursoR-AEET-2025/schedule.html</loc>
-    <lastmod>2024-10-16T10:24:02.183Z</lastmod>
+    <loc>https://Rstats-courses.github.io/CursoR-AEET-2025/materiales.html</loc>
+    <lastmod>2024-10-16T15:30:24.655Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Rstats-courses.github.io/CursoR-AEET-2025/programa.html</loc>
+    <lastmod>2024-10-16T15:30:24.655Z</lastmod>
   </url>
   <url>
     <loc>https://Rstats-courses.github.io/CursoR-AEET-2025/index.html</loc>
-    <lastmod>2024-10-16T10:24:02.183Z</lastmod>
+    <lastmod>2024-10-16T15:30:24.655Z</lastmod>
   </url>
 </urlset>

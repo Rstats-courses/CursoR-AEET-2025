@@ -1,32 +1,96 @@
 [
   {
-    "objectID": "materials.html",
-    "href": "materials.html",
-    "title": "Course Materials",
+    "objectID": "preparativos.html",
+    "href": "preparativos.html",
+    "title": "Preparativos",
     "section": "",
-    "text": "Datasets\nSlides",
-    "crumbs": [
-      "Materials"
-    ]
+    "text": "Es imprescindible que cada alumno traiga su propio portátil. Previamente al comienzo del curso deberá instalarse:\n\nLa última versión de R (https://cloud.r-project.org/)\nLa última versión de Rstudio\nLos paquetes incluidos aquí, actualizados a su última versión. Probablemente la forma más fácil es ejecutar source(\"https://raw.githubusercontent.com/Rstats-courses/cursoR-AEET-2022/master/pkgs2install.R\") desde vuestro R para instalar la última versión de todos los paquetes.\nDarse de alta en GitHub: https://github.com/join. Aquí hay algunos consejos sobre el nombre de usuario y proceso de alta.\nInstalar y configurar Git:\n\nPrimero comprobar si ya tienes git instalado: https://happygitwithr.com/github-acct.html\nSi no lo tienes instalado, instálalo: https://happygitwithr.com/install-git.html. IMPORTANTE seguir las instrucciones al detalle para evitar problemas después.\nConfigurar git: nombre de usuario y email. Se puede hacer directamente desde R mediante el paquete usethis o usando la terminal. Instrucciones AQUÍ.\n(Recomendado) Instalar un cliente para git. Por ejemplo GitHub Desktop o GitKraken. Más info aquí\n\nOpcionalmente:\n\nConfigurar la Personal Access Token (PAT) de GitHub: instrucciones aquí\nComprobar la comunicación con GitHub (instrucciones)\nComprobar comunicación entre Rstudio y git (instrucciones)\nSi Rstudio no puede detectar git: https://happygitwithr.com/rstudio-see-git.html\nProblemas frecuentes: https://happygitwithr.com/troubleshooting.html"
   },
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
+    "objectID": "materiales.html",
+    "href": "materiales.html",
+    "title": "Materiales",
     "section": "",
-    "text": "Example schedule:\n\n\n\n\n\n\n\n\n\nMorning\nAfternoon\n\n\n\n\nL\nIntro + Data manipulation\ngit / GitHub\n\n\nM\nGeneralised Linear Models\nData visualisation\n\n\nX\nMixed models / GAM / Bayes\nFunctional programming + Students work\n\n\nJ\nMultivariate analyses\nReproducible workflows\n\n\nV\nUsing R as GIS + Students work\nProject presentations",
+    "text": "Datasets: zip file individual datasets\n\nLUNES\n\nWelcome slides\nIntroduction slides\nCommon-sense stats slides\nData management slides\nGit & GitHub slides\n\n\n\nMARTES\n\nGLM slides scripts\nData visualisation slides\n\n\n\nMIÉRCOLES\n\nFunctional programming script\nGLMM slides scripts\nReproducible workflows slides examples\n\n\n\nJUEVES\n\nMultivariate analyses slides script\nGAM + Bayes slides scripts\n\n\n\nVIERNES\n\nR as GIS slides scripts\n\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
+  },
+  {
+    "objectID": "programa.html",
+    "href": "programa.html",
+    "title": "Programa",
+    "section": "",
+    "text": "Lunes 13 - Viernes 17 enero\nMañanas: 9:00 - 13:30\nTardes: 15:00 - 17:30\n\n\n\n\n\n\n\n\n\nMañana\nTarde\n\n\n\n\nL\nIntro + Data management\nData visualisation\n\n\nM\nGeneralised Linear Models\nReproducible workflows\n\n\nX\nMixed models\ngit + GitHub\n\n\nJ\nMultivariate analyses\nGAM + Bayes\n\n\nV\nFunctional programming\nStudent’s work",
     "crumbs": [
-      "Schedule"
+      "Programa"
     ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Course Title",
+    "title": "Optimizando el uso de R para el análisis de datos en Ecología",
     "section": "",
-    "text": "Course info & details here",
+    "text": "https://bit.ly/aeet2022\nCurso organizado por la Asociación Española de Ecología Terrestre (AEET), en colaboración con la Facultad de Biología de la Universidad de Sevilla.\nImpartido por Ignasi Bartomeus, Elena Quintero y Francisco Rodríguez-Sánchez.\nSevilla, 13-17 enero 2025.",
     "crumbs": [
-      "Home"
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#resumen",
+    "href": "index.html#resumen",
+    "title": "Optimizando el uso de R para el análisis de datos en Ecología",
+    "section": "Resumen",
+    "text": "Resumen\nEl lenguaje y programa estadístico R se ha establecido como una de las herramientas principales para el análisis de datos en ecología (y otras muchas disciplinas científicas). En este curso, de nivel medio-avanzado, profundizaremos tanto en aspectos de programación en R como en el manejo y visualización de datos y en los análisis estadísticos más frecuentes en ecología (modelos mixtos, modelos generalizados, análisis multivariantes, etc).\nEl curso pretende establecer buenos fundamentos teóricos mediante una aproximación fundamentalmente práctica. El método docente se basa en aprender haciendo (“learn by doing”): aprenderemos programación avanzada de R (e.g. funciones, vectorización, simulaciones, computación reproducible) mientras desarrollamos diversos análisis y visualización de datos. Se repasarán los fundamentos y aplicación de diferentes técnicas estadísticas mezclando el componente práctico y teórico mediante el desarrollo de múltiplos ejemplos y casos de estudio, enfatizando la comprensión del funcionamiento de los diversos análisis, errores más comunes, buenas prácticas y su uso adecuado.\nEl curso es ideal para alumnos que ya utilizan R para analizar datos pero sienten que no están aprovechando a fondo todo el potencial de R ni de sus datos. Durante el curso los alumnos podrán plantear dudas sobre cómo analizar sus propios datos.",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#dirigido-a",
+    "href": "index.html#dirigido-a",
+    "title": "Optimizando el uso de R para el análisis de datos en Ecología",
+    "section": "Dirigido a",
+    "text": "Dirigido a\nEl curso está dirigido a estudiantes fundamentalmente de postgrado, profesores e investigadores con conocimientos básicos de estadística que ya sepan utilizar R pero deseen profundizar en el manejo de R para el análisis de datos en ecología. El curso ofrece la oportunidad de mejorar los conocimientos de estadística y las capacidades en el manejo de una herramienta muy potente y versátil para el análisis de datos, por lo que contribuirá a la formación técnica de alumnos de postgrado con un perfil investigador, así como de investigadores postdoctorales y profesores.\nEl alumno debe saber interpretar modelos lineales simples (regresión lineal) y estar familiarizado con R (importar datos, manejar data frames, hacer gráficas sencillas, ajustar modelos simples tipo lm o glm). Se desaconseja la inscripción de alumnos aún con nivel de iniciación a R, ya que el ritmo del curso es intenso y se haría difícil su aprovechamiento. Además es necesario tener un nivel básico de inglés ya que muchas diapositivas se presentan en ese idioma.",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#lugar",
+    "href": "index.html#lugar",
+    "title": "Optimizando el uso de R para el análisis de datos en Ecología",
+    "section": "Lugar",
+    "text": "Lugar\nFacultad de Biología (Edificio ROJO)\nUniversidad de Sevilla\nAvda. Reina Mercedes s/n\nCómo llegar",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#foro",
+    "href": "index.html#foro",
+    "title": "Optimizando el uso de R para el análisis de datos en Ecología",
+    "section": "Foro",
+    "text": "Foro\nForo para debates, preguntas, etc: https://github.com/Rstats-courses/CursoR-AEET-2025/discussions",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#feedback",
+    "href": "index.html#feedback",
+    "title": "Optimizando el uso de R para el análisis de datos en Ecología",
+    "section": "Feedback",
+    "text": "Feedback\nVuestros comentarios son muy útiles para la mejora continua del curso. Podéis dejar vuestros comentarios en este formulario anónimo: https://forms.gle/. ¡Gracias!",
+    "crumbs": [
+      "Inicio"
+    ]
+  },
+  {
+    "objectID": "index.html#bibliografía-recomendada",
+    "href": "index.html#bibliografía-recomendada",
+    "title": "Optimizando el uso de R para el análisis de datos en Ecología",
+    "section": "Bibliografía recomendada",
+    "text": "Bibliografía recomendada\n\nAdvanced R programming\nR for Data Science\nR graphics cookbook\nFundamentals of data visualization\nData visualization: a practical introduction\nGraphical data analysis with R\nAnalysing ecological data\nMixed Effects Models and Extensions in Ecology with R\nData analysis using regression and multilevel/hierarchical models\nRegression and other stories\nNumerical ecology\nNumerical ecology with R\nHappy git and GitHub for the useR\nGeocomputation with R\nEco-stats: data analysis in ecology\nEcological Models and Data in R\nStatistical Rethinking\nBayesian Population Analysis using WinBugs\nApplied Hierarchical Modeling in Ecology\nEnvironmental Data Analysis",
+    "crumbs": [
+      "Inicio"
     ]
   }
 ]
