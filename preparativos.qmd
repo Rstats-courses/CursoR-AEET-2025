@@ -1,0 +1,41 @@
+---
+title: "Preparativos"
+---
+
+Es imprescindible que cada alumno traiga su propio portátil. Previamente al comienzo del curso deberá instalarse:
+
+-   La **última versión** de R (https://cloud.r-project.org/)
+
+-   La **última versión** de [Rstudio](https://www.rstudio.com/products/rstudio/download/)
+
+-   Los paquetes incluidos [aquí](https://raw.githubusercontent.com/Rstats-courses/cursoR-AEET-2022/master/pkgs2install.R), actualizados a su última versión. Probablemente la forma más fácil es ejecutar `source("https://raw.githubusercontent.com/Rstats-courses/cursoR-AEET-2022/master/pkgs2install.R")` desde vuestro R para instalar la última versión de todos los paquetes.
+
+-   Darse de alta en GitHub: <https://github.com/join>. [Aquí](https://happygitwithr.com/github-acct.html) hay algunos consejos sobre el nombre de usuario y proceso de alta.
+
+-   Instalar y configurar Git: 
+
+    - Primero comprobar si ya tienes git instalado: <https://happygitwithr.com/github-acct.html>
+  
+    - Si no lo tienes instalado, instálalo: <https://happygitwithr.com/install-git.html>. IMPORTANTE seguir las instrucciones al detalle para evitar problemas después.
+  
+    - Configurar git: nombre de usuario y email. Se puede hacer directamente desde R mediante el paquete `usethis` o usando la terminal. Instrucciones [AQUÍ](https://happygitwithr.com/hello-git.html#hello-git).
+  
+    - (Recomendado) Instalar un cliente para git. Por ejemplo GitHub Desktop o GitKraken. Más info [aquí](https://happygitwithr.com/git-client.html#recommended-git-clients)
+  
+    Opcionalmente:
+  
+    - Configurar la Personal Access Token (PAT) de GitHub: instrucciones [aquí](https://happygitwithr.com/https-pat.html#tldr)
+  
+    - Comprobar la comunicación con GitHub ([instrucciones](https://happygitwithr.com/push-pull-github.html))
+  
+    - Comprobar comunicación entre Rstudio y git ([instrucciones](https://happygitwithr.com/rstudio-git-github.html))
+  
+    - Si Rstudio no puede detectar git: <https://happygitwithr.com/rstudio-see-git.html>
+  
+    - Problemas frecuentes: <https://happygitwithr.com/troubleshooting.html>
+  
+  
+  
+  
+
+

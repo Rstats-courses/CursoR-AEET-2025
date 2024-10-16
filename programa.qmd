@@ -1,0 +1,19 @@
+---
+title: "Programa"
+---
+
+Lunes 13 - Viernes 17 enero
+
+Mañanas: 9:00 - 13:30
+
+Tardes: 15:00 - 17:30
+
+|     |                Mañana                  |         Tarde                          |
+|:---:|:--------------------------------------:|:--------------------------------------:|
+|  L  | Intro + Data management                | Data visualisation                     |
+|  M  | Generalised Linear Models              | Reproducible workflows                 |
+|  X  | Mixed models                           | git + GitHub                           |
+|  J  | Multivariate analyses                  | GAM + Bayes                            |
+|  V  | Functional programming                 | Student's work                         |
+
+

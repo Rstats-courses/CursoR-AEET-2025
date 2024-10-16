@@ -1,20 +1,9 @@
-# Quarto course website template
+# Optimizando el uso de R para el análisis de datos en ecología (6ª ed.)
 
-A template for course websites developed with [Quarto](https://quarto.org) and hosted on GitHub.
+<https://bit.ly/aeet2022>
 
-This is all configured so you only need to edit the source files in Quarto (.qmd). The website is generated and hosted automatically by GitHub.
+Curso organizado por la Asociación Española de Ecología Terrestre ([AEET](http://www.aeet.org)), en colaboración con la [Facultad de Biología](https://biologia.us.es/) de la [Universidad de Sevilla](https://www.us.es/).
 
-Example website: https://pakillo.github.io/quarto-course-website-template (see also https://github.com/rstudio-conf-2022/teach-ds-course-website for a more developed example).
+Impartido por [Ignasi Bartomeus](https://bartomeuslab.com/), [Elena Quintero](https://orcid.org/0000-0003-4979-6874) y [Francisco Rodríguez-Sánchez](https://frodriguezsanchez.net/).
 
-
-## Using this template
-
-1. Click on green button "Use this template" -> "Create a new repository"
-
-2. Choose a name for your repository
-
-3. Important: check 'Include all branches' when creating the repository (because we will need the `gh-pages` branch to host the website).
-
-4. Once your repo is created, remember to update the links to your GitHub repo in [_quarto.yml](_quarto.yml), replacing 'Pakillo' with your GitHub username.
-
-
+Sevilla, 13-17 enero 2025.

@@ -1,0 +1,58 @@
+---
+title: "Materiales"
+---
+
+Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com/Rstats-courses/CursoR-AEET-2022/tree/main/data)
+
+
+### LUNES
+
+- Welcome [slides](slides/welcome.pdf)
+
+- Introduction [slides](slides/Intro_nacho.html)
+
+- Common-sense stats [slides](slides/CommonSense.html)
+
+- Data management [slides](slides/data_management_slides.pdf)
+
+- Git & GitHub [slides](slides/github.pdf)
+
+
+
+### MARTES
+
+- GLM [slides](slides/GLM_etal.pdf) [scripts](https://github.com/Rstats-courses/CursoR-AEET-2022/tree/main/scripts)
+
+- Data visualisation [slides](slides/data_visualization_slides.pdf)
+
+
+### MIÉRCOLES
+
+- Functional programming [script](scripts/Functional_programming.R)
+
+- GLMM [slides](slides/GLM_etal.pdf) [scripts](https://github.com/Rstats-courses/CursoR-AEET-2022/tree/main/scripts)
+
+- Reproducible workflows [slides](slides/ReproducibleScience.pdf) [examples](other/Rmarkdown_examples.zip)
+
+
+### JUEVES
+
+- Multivariate analyses [slides](slides/multivariate.html) [script](scripts/multivariante_notes.R)
+
+- GAM + Bayes [slides](slides/GLM_etal.pdf) [scripts](https://github.com/Rstats-courses/CursoR-AEET-2022/tree/main/scripts)
+
+
+### VIERNES
+
+- R as GIS [slides](slides/RasGIS.pdf) [scripts](https://github.com/Rstats-courses/CursoR-AEET-2022/tree/main/scripts)
+
+
+
+<br>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+
+
+
+

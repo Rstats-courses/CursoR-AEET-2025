@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Course Title"
+  title: "CursoR-AEET-2025"
   sidebar:
     background: primary
     # logo: "images/logo.png"
@@ -11,18 +11,25 @@ website:
     align: center
     tools:
       - icon: github
-        href: https://github.com/Pakillo/quarto-course-website-template
+        href: https://github.com/Rstats-courses/CursoR-AEET-2025
         text: GitHub
     style: docked
     contents:
       - href: index.qmd
-        text: Home
-      - href: schedule.qmd
-        text: Schedule
-      - href: materials.qmd
-        text: Materials
-      - href: https://github.com/Pakillo/quarto-course-website-template/discussions
-        text: Forum
+        text: Inicio
+      # - href: preparativos.qmd
+      #   text: Preparativos
+      - href: programa.qmd
+        text: Programa
+      # - href: materiales.qmd
+      #   text: Materiales
+      # - href: proyectos.qmd
+      #   text: Proyectos
+      # - href: https://github.com/Rstats-courses/CursoR-AEET-2025/discussions
+      #   text: Foro
+      # - href: https://forms.gle/NeY8tghRtLqjU14CA
+      #   text: Feedback
+
 
 format:
   html:
