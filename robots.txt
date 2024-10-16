@@ -1,1 +1,1 @@
-Sitemap: https://github.com/Pakillo/quarto-course-website-template/sitemap.xml
+Sitemap: https://Rstats-courses.github.io/CursoR-AEET-2025/sitemap.xml
