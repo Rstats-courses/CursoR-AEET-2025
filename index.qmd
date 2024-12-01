@@ -2,7 +2,7 @@
 title: "Optimizando el uso de R para el análisis de datos en Ecología"
 ---
 
-<https://bit.ly/aeet2022>
+<https://bit.ly/aeet202X>
 
 Curso organizado por la Asociación Española de Ecología Terrestre ([AEET](http://www.aeet.org)), en colaboración con la [Facultad de Biología](https://biologia.us.es/) de la [Universidad de Sevilla](https://www.us.es/).
 
@@ -92,6 +92,6 @@ Vuestros comentarios son muy útiles para la mejora continua del curso. Podéis 
 <br>
 <br>
 
-![](logos.png)
+![](logos2.png)
 
 
