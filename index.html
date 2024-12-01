@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,10 +34,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-38769d6d5360e4b0df98504e5036f89d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="https://bit.ly/aeet2022" class="uri">https://bit.ly/aeet2022</a></p>
+<p><a href="https://bit.ly/aeet202X" class="uri">https://bit.ly/aeet202X</a></p>
 <p>Curso organizado por la Asociación Española de Ecología Terrestre (<a href="http://www.aeet.org">AEET</a>), en colaboración con la <a href="https://biologia.us.es/">Facultad de Biología</a> de la <a href="https://www.us.es/">Universidad de Sevilla</a>.</p>
 <p>Impartido por <a href="https://bartomeuslab.com/">Ignasi Bartomeus</a>, <a href="https://orcid.org/0000-0003-4979-6874">Elena Quintero</a> y <a href="https://frodriguezsanchez.net/">Francisco Rodríguez-Sánchez</a>.</p>
 <p>Sevilla, 13-17 enero 2025.</p>
@@ -214,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="https://link.springer.com/book/10.1007/978-3-030-55020-2">Environmental Data Analysis</a></p></li>
 </ul>
 <p><br> <br></p>
-<p><img src="logos.png" class="img-fluid"></p>
+<p><img src="logos2.png" class="img-fluid"></p>
 
 
 </section>
@@ -302,8 +302,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -414,7 +412,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
