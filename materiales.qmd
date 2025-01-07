@@ -7,41 +7,41 @@ Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com
 
 ### LUNES
 
-- Welcome [slides](slides/welcome.pdf)
+- Welcome: [slides](slides/welcome.pdf)
 
-- Introduction [slides](slides/Intro_nacho.html)
+- Introduction: [slides](slides/Intro_nacho.html)
 
-- Common-sense stats [slides](slides/CommonSense.html)
+- Common-sense stats: [slides](slides/CommonSense.html)
 
-- Data management [slides](slides/data_management_slides.pdf)
+- Data management: [slides](slides/data_management_slides.pdf)
 
-- Data visualisation [slides](slides/data_visualization_slides.pdf)
+- Data visualisation: [slides](slides/data_visualization_slides.pdf)
 
 
 ### MARTES
 
-- GLM [slides](slides/GLM_etal.pdf) [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
+- GLM: [slides](slides/GLM_etal.pdf), [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
 
-- Reproducible workflows [slides](slides/ReproducibleScience.pdf) [examples](other/Rmarkdown_examples.zip)
+- Reproducible workflows: [slides](slides/ReproducibleScience.pdf), [examples](other/Rmarkdown_examples.zip)
 
 
 ### MIÉRCOLES
 
-- GLMM [slides](slides/GLM_etal.pdf) [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
+- GLMM: [slides](slides/GLM_etal.pdf), [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
 
-- Git & GitHub [slides](slides/github.pdf)
+- Git & GitHub: [slides](slides/github.pdf)
 
 
 ### JUEVES
 
-- Multivariate analyses [slides](slides/multivariate.html) [script](scripts/multivariante_notes.R)
+- Multivariate analyses: [slides](slides/multivariate.html), [script](scripts/multivariante_notes.R)
 
-- GAM + Bayes [slides](slides/GLM_etal.pdf) [scripts](https://github.com/Rstats-courses/CursoR-AEET-2022/tree/main/scripts)
+- GAM + Bayes: [slides](slides/GLM_etal.pdf), [scripts](https://github.com/Rstats-courses/CursoR-AEET-2022/tree/main/scripts)
 
 
 ### VIERNES
 
-- Functional programming [script](scripts/Functional_programming.R)
+- Functional programming: [script](scripts/Functional_programming.R)
 
 
 
