@@ -15,24 +15,21 @@ Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com
 
 - Data management [slides](slides/data_management_slides.pdf)
 
-- Git & GitHub [slides](slides/github.pdf)
-
+- Data visualisation [slides](slides/data_visualization_slides.pdf)
 
 
 ### MARTES
 
-- GLM [slides](slides/GLM_etal.pdf) [scripts](https://github.com/Rstats-courses/CursoR-AEET-2022/tree/main/scripts)
+- GLM [slides](slides/GLM_etal.pdf) [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
 
-- Data visualisation [slides](slides/data_visualization_slides.pdf)
+- Reproducible workflows [slides](slides/ReproducibleScience.pdf) [examples](other/Rmarkdown_examples.zip)
 
 
 ### MIÉRCOLES
 
-- Functional programming [script](scripts/Functional_programming.R)
+- GLMM [slides](slides/GLM_etal.pdf) [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
 
-- GLMM [slides](slides/GLM_etal.pdf) [scripts](https://github.com/Rstats-courses/CursoR-AEET-2022/tree/main/scripts)
-
-- Reproducible workflows [slides](slides/ReproducibleScience.pdf) [examples](other/Rmarkdown_examples.zip)
+- Git & GitHub [slides](slides/github.pdf)
 
 
 ### JUEVES
@@ -44,7 +41,7 @@ Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com
 
 ### VIERNES
 
-- R as GIS [slides](slides/RasGIS.pdf) [scripts](https://github.com/Rstats-courses/CursoR-AEET-2022/tree/main/scripts)
+- Functional programming [script](scripts/Functional_programming.R)
 
 
 

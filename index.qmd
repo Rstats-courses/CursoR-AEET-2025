@@ -27,7 +27,7 @@ El alumno debe saber interpretar modelos lineales simples (regresión lineal) y 
 
 ## Lugar
 
-Aula 1.07 (1ª planta), Facultad de Biología (Edificio ROJO)
+**Aula 1.07** (1ª planta), **Facultad de Biología (Edificio ROJO)**
 
 Campus de Reina Mercedes, Universidad de Sevilla
 
@@ -42,7 +42,7 @@ Foro para debates, preguntas, etc: <https://github.com/Rstats-courses/CursoR-AEE
 
 ## Feedback
 
-Vuestros comentarios son muy útiles para la mejora continua del curso. Podéis dejar vuestros comentarios en este formulario anónimo: <https://forms.gle/>. ¡Gracias!
+Vuestros comentarios son muy útiles para la mejora continua del curso. Podéis dejar vuestros comentarios en este formulario anónimo: <https://forms.gle/EftCaUgkzGRGEfFv8>. ¡Gracias!
 
 
 ## Bibliografía recomendada
