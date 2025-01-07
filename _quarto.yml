@@ -17,18 +17,18 @@ website:
     contents:
       - href: index.qmd
         text: Inicio
-      # - href: preparativos.qmd
-      #   text: Preparativos
+      - href: preparativos.qmd
+        text: Preparativos
       - href: programa.qmd
         text: Programa
-      # - href: materiales.qmd
-      #   text: Materiales
+      - href: materiales.qmd
+        text: Materiales
       # - href: proyectos.qmd
       #   text: Proyectos
-      # - href: https://github.com/Rstats-courses/CursoR-AEET-2025/discussions
-      #   text: Foro
-      # - href: https://forms.gle/NeY8tghRtLqjU14CA
-      #   text: Feedback
+      - href: https://github.com/Rstats-courses/CursoR-AEET-2025/discussions
+        text: Foro
+      - href: https://forms.gle/EftCaUgkzGRGEfFv8
+        text: Feedback
 
 
 format:
