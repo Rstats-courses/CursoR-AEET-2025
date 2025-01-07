@@ -4,14 +4,20 @@
     "href": "preparativos.html",
     "title": "Preparativos",
     "section": "",
-    "text": "Es imprescindible que cada alumno traiga su propio portátil. Previamente al comienzo del curso deberá instalarse:\n\nLa última versión de R (https://cloud.r-project.org/)\nLa última versión de Rstudio\nLos paquetes incluidos aquí, actualizados a su última versión. Probablemente la forma más fácil es ejecutar source(\"https://raw.githubusercontent.com/Rstats-courses/cursoR-AEET-2022/master/pkgs2install.R\") desde vuestro R para instalar la última versión de todos los paquetes.\nDarse de alta en GitHub: https://github.com/join. Aquí hay algunos consejos sobre el nombre de usuario y proceso de alta.\nInstalar y configurar Git:\n\nPrimero comprobar si ya tienes git instalado: https://happygitwithr.com/github-acct.html\nSi no lo tienes instalado, instálalo: https://happygitwithr.com/install-git.html. IMPORTANTE seguir las instrucciones al detalle para evitar problemas después.\nConfigurar git: nombre de usuario y email. Se puede hacer directamente desde R mediante el paquete usethis o usando la terminal. Instrucciones AQUÍ.\n(Recomendado) Instalar un cliente para git. Por ejemplo GitHub Desktop o GitKraken. Más info aquí\n\nOpcionalmente:\n\nConfigurar la Personal Access Token (PAT) de GitHub: instrucciones aquí\nComprobar la comunicación con GitHub (instrucciones)\nComprobar comunicación entre Rstudio y git (instrucciones)\nSi Rstudio no puede detectar git: https://happygitwithr.com/rstudio-see-git.html\nProblemas frecuentes: https://happygitwithr.com/troubleshooting.html"
+    "text": "Es imprescindible que cada alumno/a traiga su propio portátil con conexión WiFi.\nSi se pertenece a una institución académica (universidades, CSIC), es muy recomendable traer eduroam configurado de antemano para el acceso WiFi. Para ello pueden utilizarse aplicaciones que ayudan con la instalación (https://www.geteduroam.app/, https://cat.eduroam.org/). En caso de duda consultar con el servicio de informática de la institución correspondiente. Para los alumnos sin acceso a eduroam se dispondrá de una red wifi alternativa.\nPreviamente al comienzo del curso deberá instalarse:\n\nLa última versión de R (https://cloud.r-project.org/)\nLa última versión de Rstudio\nLos paquetes incluidos aquí, actualizados a su última versión. Probablemente la forma más fácil es ejecutar source(\"https://raw.githubusercontent.com/Rstats-courses/cursoR-AEET-2025/master/pkgs2install.R\") desde vuestro R para instalar la última versión de todos los paquetes.\nDarse de alta en GitHub: https://github.com/join. Aquí hay algunos consejos sobre el nombre de usuario y proceso de alta.\nInstalar GitHub Desktop: https://github.com/apps/desktop.",
+    "crumbs": [
+      "Preparativos"
+    ]
   },
   {
     "objectID": "materiales.html",
     "href": "materiales.html",
     "title": "Materiales",
     "section": "",
-    "text": "Datasets: zip file individual datasets\n\nLUNES\n\nWelcome slides\nIntroduction slides\nCommon-sense stats slides\nData management slides\nGit & GitHub slides\n\n\n\nMARTES\n\nGLM slides scripts\nData visualisation slides\n\n\n\nMIÉRCOLES\n\nFunctional programming script\nGLMM slides scripts\nReproducible workflows slides examples\n\n\n\nJUEVES\n\nMultivariate analyses slides script\nGAM + Bayes slides scripts\n\n\n\nVIERNES\n\nR as GIS slides scripts\n\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
+    "text": "Datasets: zip file individual datasets\n\nLUNES\n\nWelcome slides\nIntroduction slides\nCommon-sense stats slides\nData management slides\nGit & GitHub slides\n\n\n\nMARTES\n\nGLM slides scripts\nData visualisation slides\n\n\n\nMIÉRCOLES\n\nFunctional programming script\nGLMM slides scripts\nReproducible workflows slides examples\n\n\n\nJUEVES\n\nMultivariate analyses slides script\nGAM + Bayes slides scripts\n\n\n\nVIERNES\n\nR as GIS slides scripts\n\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
+    "crumbs": [
+      "Materiales"
+    ]
   },
   {
     "objectID": "programa.html",
@@ -28,7 +34,7 @@
     "href": "index.html",
     "title": "Optimizando el uso de R para el análisis de datos en Ecología",
     "section": "",
-    "text": "https://bit.ly/aeet202X\nCurso organizado por la Asociación Española de Ecología Terrestre (AEET), en colaboración con la Facultad de Biología de la Universidad de Sevilla.\nImpartido por Ignasi Bartomeus, Elena Quintero y Francisco Rodríguez-Sánchez.\nSevilla, 13-17 enero 2025.",
+    "text": "https://bit.ly/aeet2025\nCurso organizado por la Asociación Española de Ecología Terrestre (AEET), en colaboración con la Facultad de Biología de la Universidad de Sevilla y la Estación Biológica de Doñana (CSIC).\nImpartido por Ignasi Bartomeus, Elena Quintero y Francisco Rodríguez-Sánchez.\nSevilla, 13-17 enero 2025.",
     "crumbs": [
       "Inicio"
     ]
@@ -58,7 +64,7 @@
     "href": "index.html#lugar",
     "title": "Optimizando el uso de R para el análisis de datos en Ecología",
     "section": "Lugar",
-    "text": "Lugar\nFacultad de Biología (Edificio ROJO)\nUniversidad de Sevilla\nAvda. Reina Mercedes s/n\nCómo llegar",
+    "text": "Lugar\nAula 1.07 (1ª planta), Facultad de Biología (Edificio ROJO)\nCampus de Reina Mercedes, Universidad de Sevilla\nAvda. Reina Mercedes s/n\nCómo llegar",
     "crumbs": [
       "Inicio"
     ]
