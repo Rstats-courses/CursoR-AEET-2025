@@ -56,6 +56,7 @@ install.packages(
     "sf",
     "shiny",
     "sjPlot",
+    "summarytools",
     # "template",   # GH
     "terra",
     "texreg",
