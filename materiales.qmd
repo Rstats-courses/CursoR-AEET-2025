@@ -13,23 +13,23 @@ Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com
 
 - Common-sense stats: [slides](slides/CommonSense.html)
 
-- Data management: [slides](slides/data_management_trees.html)
+- Data management: [slides](slides/data_management.html)
 
-- Data visualisation: [slides](slides/data_visualization_slides.pdf)
+- Data visualisation: [slides](slides/data_visualization.html)
 
 
 ### MARTES
 
 - GLM: [slides](slides/GLM_etal.pdf), [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
 
-- Reproducible workflows: [slides](slides/ReproducibleScience.pdf), [examples](other/Rmarkdown_examples.zip)
+- Git & GitHub: [slides](slides/github.html)
 
 
 ### MIÉRCOLES
 
 - GLMM: [slides](slides/GLM_etal.pdf), [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
 
-- Git & GitHub: [slides](slides/github.pdf)
+- Reproducible workflows: [slides](slides/ReproducibleScience.pdf), [examples](other/Rmarkdown_examples.zip)
 
 
 ### JUEVES
