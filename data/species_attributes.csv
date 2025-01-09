@@ -1,0 +1,105 @@
+species_name,family,genus,epithet,seed_development_years,pollinator_code,mycorrhiza_type,needleleaf_broadleaf,deciduous_evergreen,seed_maturation_timing,seed_mass_mg,sexual_system,shade_tolerance,growth_form,seed_bank,fleshy_fruit,dispersal_syndrome
+Abies_amabilis,Pinaceae,Abies,amabilis,2,wind,EM,needleleaf,evergreen,late summer,46.20633539,monoecious,tolerant,tree,no,no,abiotic
+Abies_concolor,Pinaceae,Abies,concolor,2,wind,EM,needleleaf,evergreen,fall,34.28470563,monoecious,tolerant,tree,no,no,abiotic
+Abies_grandis,Pinaceae,Abies,grandis,2,wind,EM,needleleaf,evergreen,late summer,21.08000754,monoecious,tolerant,tree,no,no,abiotic
+Abies_lasiocarpa,Pinaceae,Abies,lasiocarpa,2,wind,EM,needleleaf,evergreen,late summer,13.73272258,monoecious,tolerant,tree,no,no,abiotic
+Abies_magnifica,Pinaceae,Abies,magnifica,2,wind,EM,needleleaf,evergreen,late summer,78.41254659,monoecious,intermediate,tree,yes,no,abiotic
+Abies_procera,Pinaceae,Abies,procera,2,wind,EM,needleleaf,evergreen,fall,34.26120497,monoecious,intolerant,tree,yes,no,abiotic
+Acer_rubrum,Aceraceae,Acer,rubrum,2,wind,AM,broadleaf,deciduous,spring,23.50355662,polygamo-dioecious,intermediate,tree,no,no,abiotic
+Acer_saccharum,Aceraceae,Acer,saccharum,2,animal,AM,broadleaf,deciduous,fall,63.62381068,polygamo-dioecious,tolerant,tree,no,no,abiotic
+Alnus_incana,Betulaceae,Alnus,incana,2,wind,EM,broadleaf,deciduous,fall,1.005338165,monoecious,intermediate,shrub,no,no,abiotic
+Alnus_viridis,Betulaceae,Alnus,viridis,2,wind,EM,broadleaf,deciduous,fall,0.258333333,monoecious,tolerant,shrub,no,no,abiotic
+Amelanchier_arborea,Rosaceae,Amelanchier,arborea,2,animal,AM,broadleaf,deciduous,summer,5.670980463,monoecious,intermediate,tree,yes,yes,endozoochory
+Betula_alleghaniensis,Betulaceae,Betula,alleghaniensis,2,wind,EM,broadleaf,deciduous,late summer - fall,1.208805905,monoecious,intermediate,tree,no,no,abiotic
+Betula_neoalaskana,Betulaceae,Betula,neoalaskana,2,wind,EM,broadleaf,deciduous,late summer - fall,0.1786,monoecious,intolerant,tree,no,no,abiotic
+Carya_glabra,Juglandaceae,Carya,glabra,2,wind,EM,broadleaf,deciduous,late summer,3530.138155,monoecious,intermediate,tree,no,no,synzoochory
+Castanea_dentata,Fagaceae,Castanea,dentata,2,wind,EM,broadleaf,deciduous,fall,3466.360552,monoecious,intermediate,tree,no,no,synzoochory
+Cornus_florida,Cornaceae,Cornus,florida,2,animal,AM,broadleaf,deciduous,fall,119.0960397,monoecious,tolerant,tree,yes,yes,endozoochory
+Fagus_grandifolia,Fagaceae,Fagus,grandifolia,2,wind,EM,broadleaf,deciduous,fall,253.5634093,monoecious,tolerant,tree,no,no,synzoochory
+Fraxinus_americana,Oleaceae,Fraxinus,americana,2,wind,AM,broadleaf,deciduous,fall,38.31136444,dioecious,intermediate,tree,no,no,abiotic
+Ilex_montana,Aquifoliaceae,Ilex,montana,2,animal,AM,broadleaf,deciduous,fall,12.7529482,dioecious,tolerant,tree,yes,yes,endozoochory
+Juniperus_monosperma,Cupressaceae,Juniperus,monosperma,2,wind,AM,needleleaf,evergreen,late summer,26.80978732,dioecious,intolerant,tree,yes,yes,endozoochory
+Kalmia_latifolia,Ericaceae,Kalmia,latifolia,2,animal,ericoid,broadleaf,evergreen,fall,0.019313899,hermaphrodite,tolerant,shrub,no,no,abiotic
+Larix_laricina,Pinaceae,Larix,laricina,2,wind,EM,needleleaf,deciduous,late summer,1.585595652,monoecious,intolerant,tree,no,no,abiotic
+Liriodendron_tulipifera,Magnoliaceae,Liriodendron,tulipifera,2,animal,AM,broadleaf,deciduous,late summer - fall,46.46630578,monoecious,intolerant,tree,no,no,abiotic
+Magnolia_acuminata,Magnoliaceae,Magnolia,acuminata,2,animal,AM,broadleaf,deciduous,summer,89.08755087,monoecious,intermediate,tree,no,yes,endozoochory
+Nyssa_sylvatica,Cornaceae,Nyssa,sylvatica,2,animal,AM,broadleaf,deciduous,fall,174.6112647,polygamo-dioecious,tolerant,tree,yes,yes,endozoochory
+Oxydendrum_arboreum,Ericaceae,Oxydendrum,arboreum,2,animal,ericoid,broadleaf,deciduous,fall,0.18125,monoecious,tolerant,tree,yes,no,abiotic
+Picea_engelmannii,Pinaceae,Picea,engelmannii,2,wind,EM,needleleaf,evergreen,late summer,3.156362208,monoecious,tolerant,tree,no,no,abiotic
+Picea_glauca,Pinaceae,Picea,glauca,2,wind,EM,needleleaf,evergreen,late summer,2.376071589,monoecious,tolerant,tree,no,no,abiotic
+Picea_mariana,Pinaceae,Picea,mariana,2,wind,EM,needleleaf,evergreen,fall,1.171232837,monoecious,tolerant,tree,yes,no,abiotic
+Pinus_edulis,Pinaceae,Pinus,edulis,3,wind,EM,needleleaf,evergreen,fall,243.0316206,monoecious,intolerant,tree,no,no,synzoochory
+Pinus_lambertiana,Pinaceae,Pinus,lambertiana,3,wind,EM,needleleaf,evergreen,late summer,212.6552825,monoecious,intermediate,tree,no,no,abiotic
+Pinus_monticola,Pinaceae,Pinus,monticola,3,wind,EM,needleleaf,evergreen,fall,17.92805519,monoecious,intolerant,tree,no,no,abiotic
+Quercus_alba,Fagaceae,Quercus,alba,2,wind,EM,broadleaf,deciduous,late summer,2970.437005,monoecious,intermediate,tree,no,no,synzoochory
+Quercus_ellipsoidalis,Fagaceae,Quercus,ellipsoidalis,3,wind,EM,broadleaf,deciduous,late summer - fall,1637.96613,monoecious,intolerant,tree,no,no,synzoochory
+Quercus_macrocarpa,Fagaceae,Quercus,macrocarpa,2,wind,EM,broadleaf,deciduous,late summer - fall,6043.682251,monoecious,intolerant,tree,no,no,synzoochory
+Quercus_rubra,Fagaceae,Quercus,rubra,3,wind,EM,broadleaf,deciduous,fall,3009.392595,monoecious,intermediate,tree,no,no,synzoochory
+Quercus_turbinella,Fagaceae,Quercus,turbinella,2,wind,EM,broadleaf,deciduous,fall,1397.145426,monoecious,intermediate,shrub,no,no,synzoochory
+Rhododendron_maximum,Ericaceae,Rhododendron,maximum,2,animal,ericoid,broadleaf,evergreen,summer,1.659464809,monoecious,tolerant,tree,no,no,abiotic
+Robinia_pseudoacacia,Fabaceae,Robinia,pseudoacacia,2,animal,AM,broadleaf,deciduous,fall,19.00556612,hermaphrodite,intermediate,tree,yes,no,abiotic
+Tilia_americana,Tiliaceae,Tilia,americana,2,animal,EM,broadleaf,deciduous,fall,100.8668736,monoecious,tolerant,tree,no,no,abiotic
+Tsuga_canadensis,Pinaceae,Tsuga,canadensis,2,wind,EM,needleleaf,evergreen,fall,3.002462765,monoecious,tolerant,tree,no,no,abiotic
+Tsuga_mertensiana,Pinaceae,Tsuga,mertensiana,2,wind,EM,needleleaf,evergreen,fall,3.917797899,monoecious,tolerant,tree,no,no,abiotic
+Alchornea_latifolia,Euphorbiaceae,Alchornea,latifolia,1,animal,AM,broadleaf,evergreen,summer,29.01928889,dioecious,intermediate,tree,no,yes,endozoochory
+Alchorneopsis_floribunda,Euphorbiaceae,Alchorneopsis,floribunda,1,animal,AM,broadleaf,evergreen,late summer - fall,7,dioecious,intermediate,tree,no,yes,endozoochory
+Andira_inermis,Fabaceae,Andira,inermis,1,animal,AM,broadleaf,evergreen,summer - fall,2261.893889,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Byrsonima_spicata,Malpighiaceae,Byrsonima,spicata,1,animal,AM,broadleaf,evergreen,winter,256.8,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Calophyllum_calaba,Clusiaceae,Calophyllum,calaba,1,animal,AM,broadleaf,evergreen,fall,1172,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Casearia_arborea,Flacourtiaceae,Casearia,arborea,1,animal,AM,broadleaf,evergreen,summer - winter,1.578584713,hermaphrodite,intermediate,tree,yes,yes,endozoochory
+Casearia_sylvestris,Flacourtiaceae,Casearia,sylvestris,1,animal,AM,broadleaf,evergreen,summer - fall,2.988550639,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Cecropia_schreberiana,Cecropiaceae,Cecropia,schreberiana,1,wind,AM,broadleaf,evergreen,winter - spring,0.344444444,dioecious,intolerant,tree,yes,yes,endozoochory
+Chionanthus_domingensis,Oleaceae,Chionanthus,domingensis,1,animal,AM,broadleaf,evergreen,summer,488.46,hermaphrodite,intolerant,tree,no,yes,endozoochory
+Chione_venosa,Rubiaceae,Chione,venosa,1,animal,AM,broadleaf,evergreen,summer,310,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Clusia_gundlachii,Clusiaceae,Clusia,gundlachii,1,animal,AM,broadleaf,evergreen,all year,10.7692,dioecious,intermediate,liana,no,yes,endozoochory
+Clusia_rosea,Clusiaceae,Clusia,rosea,1,animal,AM,broadleaf,evergreen,summer,10.7692,dioecious,intermediate,tree,no,yes,endozoochory
+Cordia_borinquensis,Boraginaceae,Cordia,borinquensis,1,animal,AM,broadleaf,evergreen,summer,319,dioecious,intermediate,tree,no,yes,endozoochory
+Cordia_sulcata,Boraginaceae,Cordia,sulcata,1,animal,AM,broadleaf,evergreen,summer - fall,74.10857143,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Croton_poecilanthus,Euphorbiaceae,Croton,poecilanthus,1,animal,AM,broadleaf,evergreen,winter,67.8571,monoecious,intermediate,tree,no,no,abiotic
+Dacryodes_excelsa,Burseraceae,Dacryodes,excelsa,1,animal,AM,broadleaf,evergreen,summer - winter,1255,dioecious,tolerant,tree,no,yes,endozoochory
+Dendropanax_arboreus,Araliaceae,Dendropanax,arboreus,1,animal,AM,broadleaf,evergreen,late summer - fall,8.6296458,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Dolichandra_unguis-cati,Bignoniaceae,Dolichandra,unguis-cati,1,animal,AM,broadleaf,evergreen,spring,55.60875,hermaphrodite,intermediate,liana,no,no,abiotic
+Drypetes_glauca,Euphorbiaceae,Drypetes,glauca,1,animal,AM,broadleaf,evergreen,spring - summer,364.8148,dioecious,tolerant,tree,no,yes,endozoochory
+Eugenia_domingensis,Myrtaceae,Eugenia,domingensis,1,animal,AM,broadleaf,evergreen,all year,1060.6667,hermaphrodite,tolerant,tree,no,yes,endozoochory
+Eugenia_stahlii,Myrtaceae,Eugenia,stahlii,1,animal,AM,broadleaf,evergreen,summer - winter,4651,hermaphrodite,tolerant,tree,no,yes,endozoochory
+Ficus_trigonata,Moraceae,Ficus,trigonata,1,animal,AM,broadleaf,evergreen,summer - winter,2,monoecious,intermediate,tree,no,yes,endozoochory
+Guarea_guidonia,Meliaceae,Guarea,guidonia,1,animal,AM,broadleaf,evergreen,spring and fall,455.405268,hermaphrodite,tolerant,tree,no,yes,endozoochory
+Guatteria_caribaea,Annonaceae,Guatteria,caribaea,1,animal,AM,broadleaf,evergreen,summer,127.6,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Guettarda_valenzuelana,Rubiaceae,Guettarda,valenzuelana,1,animal,AM,broadleaf,evergreen,summer,160,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Heteropterys_laurifolia,Malpighiaceae,Heteropterys,laurifolia,1,animal,AM,broadleaf,evergreen,fall,71.82,hermaphrodite,intermediate,liana,no,no,abiotic
+Hippocratea_volubilis,Hippocrateaceae,Hippocratea,volubilis,1,animal,AM,broadleaf,evergreen,summer,53.492083,hermaphrodite,intermediate,liana,no,no,abiotic
+Hirtella_rugosa,Chrysobalanaceae,Hirtella,rugosa,1,animal,AM,broadleaf,evergreen,fall - summer,90,hermaphrodite,tolerant,tree,no,yes,endozoochory
+Homalium_racemosum,Flacourtiaceae,Homalium,racemosum,1,animal,AM,broadleaf,deciduous,summer - fall,11,hermaphrodite,intermediate,tree,no,no,abiotic
+Inga_laurina,Fabaceae,Inga,laurina,1,animal,AM,broadleaf,evergreen,fall - winter,395.68215,hermaphrodite,intermediate,tree,yes,yes,abiotic
+Inga_vera,Fabaceae,Inga,vera,1,animal,AM,broadleaf,evergreen,fall,320,hermaphrodite,intermediate,tree,yes,yes,endozoochory
+Ixora_ferrea,Rubiaceae,Ixora,ferrea,1,animal,AM,broadleaf,evergreen,winter - spring,26.976,hermaphrodite,tolerant,tree,no,yes,endozoochory
+Laetia_procera,Flacourtiaceae,Laetia,procera,1,animal,AM,broadleaf,evergreen,fall - winter,4.059054772,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Manilkara_bidentata,Sapotaceae,Manilkara,bidentata,1,animal,AM,broadleaf,evergreen,fall - spring,1354.723273,hermaphrodite,tolerant,tree,no,yes,endozoochory
+Margaritaria_nobilis,Euphorbiaceae,Margaritaria,nobilis,1,animal,AM,broadleaf,evergreen,fall,11.73269321,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Matayba_domingensis,Sapindaceae,Matayba,domingensis,1,animal,AM,broadleaf,evergreen,summer,160.9677,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Miconia_racemosa,Melastomataceae,Miconia,racemosa,1,animal,AM,broadleaf,evergreen,summer - fall,2,hermaphrodite,intolerant,shrub,no,yes,endozoochory
+Micropholis_guyanensis,Sapotaceae,Micropholis,guyanensis,1,animal,AM,broadleaf,evergreen,all year,203,hermaphrodite,tolerant,tree,no,yes,endozoochory
+Myrcia_amazonica,Myrtaceae,Myrcia,amazonica,1,animal,AM,broadleaf,evergreen,summer - winter,62,hermaphrodite,tolerant,tree,no,yes,endozoochory
+Myrcia_splendens,Myrtaceae,Myrcia,splendens,1,animal,AM,broadleaf,evergreen,winter,133.7292401,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Nectandra_turbacensis,Lauraceae,Nectandra,turbacensis,1,animal,AM,broadleaf,evergreen,spring,175.5565,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Ocotea_leucoxylon,Lauraceae,Ocotea,leucoxylon,1,animal,AM,broadleaf,evergreen,fall - spring,115.45454,dioecious,intermediate,tree,yes,yes,endozoochory
+Ormosia_krugii,Fabaceae,Ormosia,krugii,1,animal,AM,broadleaf,evergreen,summer - fall,740.5,hermaphrodite,intermediate,tree,no,no,endozoochory
+Oxandra_laurifolia,Annonaceae,Oxandra,laurifolia,1,animal,AM,broadleaf,evergreen,winter - spring,604.4444,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Palicourea_croceoides,Rubiaceae,Palicourea,croceoides,1,animal,AM,broadleaf,evergreen,spring - summer,178.8888889,hermaphrodite,intolerant,shrub,no,yes,endozoochory
+Paullinia_pinnata,NA,Paullinia,pinnata,1,animal,AM,broadleaf,evergreen,summer - winter,213.304623,hermaphrodite,intermediate,liana,no,yes,endozoochory
+Pinzona_coriacea,NA,Pinzona,coriacea,1,animal,AM,broadleaf,evergreen,fall,1.68,hermaphrodite,intermediate,liana,no,yes,endozoochory
+Piper_glabrescens,Piperaceae,Piper,glabrescens,1,animal,AM,broadleaf,evergreen,winter - spring,470,hermaphrodite,intolerant,shrub,no,yes,endozoochory
+Prestoea_acuminata,NA,Prestoea,acuminata,1,animal,AM,broadleaf,evergreen,fall - spring,180.4166667,hermaphrodite,tolerant,tree,no,yes,endozoochory
+Psychotria_berteroana,Rubiaceae,Psychotria,berteroana,1,animal,AM,broadleaf,evergreen,summer,7,hermaphrodite,intolerant,tree,no,yes,endozoochory
+Psychotria_brachiata,Rubiaceae,Psychotria,brachiata,1,animal,AM,broadleaf,evergreen,fall - winter,5,hermaphrodite,intolerant,shrub,no,yes,endozoochory
+Rourea_surinamensis,NA,Rourea,surinamensis,1,animal,AM,broadleaf,evergreen,fall - summer,144.78,hermaphrodite,tolerant,liana,no,no,endozoochory
+Roystonea_borinquena,Arecaceae,Roystonea,borinquena,1,animal,AM,broadleaf,evergreen,summer - winter,308.5,hermaphrodite,intolerant,tree,yes,yes,endozoochory
+Sapium_laurocerasus,Euphorbiaceae,Sapium,laurocerasus,1,animal,AM,broadleaf,evergreen,all year,21.4286,hermaphrodite,intolerant,tree,no,yes,endozoochory
+Schefflera_morototoni,Araliaceae,Schefflera,morototoni,1,animal,AM,broadleaf,evergreen,winter - summer,64.81470588,hermaphrodite,intolerant,tree,no,yes,endozoochory
+Sloanea_berteroana,Elaeocarpaceae,Sloanea,berteroana,1,animal,AM,broadleaf,evergreen,fall - spring,2099.17,hermaphrodite,tolerant,tree,no,yes,endozoochory
+Solanum_torvum,Solanaceae,Solanum,torvum,1,animal,AM,broadleaf,evergreen,summer,1.0525,hermaphrodite,intolerant,shrub,no,yes,endozoochory
+Tabebuia_heterophylla,Bignoniaceae,Tabebuia,heterophylla,1,animal,AM,broadleaf,evergreen,summer and fall,14.439375,hermaphrodite,intermediate,tree,yes,no,abiotic
+Terminalia_tetraphylla,Combretaceae,Terminalia,tetraphylla,1,animal,AM,broadleaf,deciduous,winter and fall,839.535,hermaphrodite,intermediate,tree,no,yes,endozoochory
+Tetragastris_balsamifera,Burseraceae,Tetragastris,balsamifera,1,animal,None,broadleaf,evergreen,summer,1140,hermaphrodite,tolerant,tree,no,yes,endozoochory
+Trichilia_pallida,Meliaceae,Trichilia,pallida,1,animal,AM,broadleaf,evergreen,spring,60.2979165,hermaphrodite,tolerant,tree,no,yes,endozoochory
+Zanthoxylum_martinicense,Rutaceae,Zanthoxylum,martinicense,1,animal,AM,broadleaf,evergreen,summer - fall,12.28,hermaphrodite,intermediate,tree,no,yes,endozoochory
