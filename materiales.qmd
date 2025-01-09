@@ -13,7 +13,7 @@ Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com
 
 - Common-sense stats: [slides](slides/CommonSense.html)
 
-- Data management: [slides](slides/data_management_slides.pdf)
+- Data management: [slides](slides/data_management_trees.html)
 
 - Data visualisation: [slides](slides/data_visualization_slides.pdf)
 
