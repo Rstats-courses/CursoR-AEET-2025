@@ -11,8 +11,8 @@ Tardes: 15:00 - 17:30
 |     |                Mañana                  |         Tarde                          |
 |:---:|:--------------------------------------:|:--------------------------------------:|
 |  L  | Intro + Data management                | Data visualisation                     |
-|  M  | Generalised Linear Models              | Reproducible workflows                 |
-|  X  | Mixed models                           | git + GitHub                           |
+|  M  | Generalised Linear Models              | git + GitHub                           |
+|  X  | Mixed models                           | Reproducible workflows                 |
 |  J  | Multivariate analyses                  | GAM + Bayes                            |
 |  V  | Functional programming                 | Student's work                         |
 

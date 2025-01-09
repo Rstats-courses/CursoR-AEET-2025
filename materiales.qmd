@@ -22,14 +22,14 @@ Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com
 
 - GLM: [slides](slides/GLM_etal.pdf), [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
 
-- Reproducible workflows: [slides](slides/ReproducibleScience.pdf), [examples](other/Rmarkdown_examples.zip)
+- Git & GitHub: [slides](slides/github.pdf)
 
 
 ### MIÉRCOLES
 
 - GLMM: [slides](slides/GLM_etal.pdf), [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
 
-- Git & GitHub: [slides](slides/github.pdf)
+- Reproducible workflows: [slides](slides/ReproducibleScience.pdf), [examples](other/Rmarkdown_examples.zip)
 
 
 ### JUEVES
