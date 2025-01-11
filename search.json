@@ -74,7 +74,7 @@
     "href": "index.html#bibliografía-recomendada",
     "title": "Optimizando el uso de R para el análisis de datos en Ecología",
     "section": "Bibliografía recomendada",
-    "text": "Bibliografía recomendada\n\nAdvanced R programming\nR for Data Science\nR graphics cookbook\nFundamentals of data visualization\nData visualization: a practical introduction\nGraphical data analysis with R\nAnalysing ecological data\nMixed Effects Models and Extensions in Ecology with R\nData analysis using regression and multilevel/hierarchical models\nRegression and other stories\nNumerical ecology\nNumerical ecology with R\nHappy git and GitHub for the useR\nGeocomputation with R\nEco-stats: data analysis in ecology\nEcological Models and Data in R\nStatistical Rethinking\nBayesian Population Analysis using WinBugs\nApplied Hierarchical Modeling in Ecology\nEnvironmental Data Analysis",
+    "text": "Bibliografía recomendada\n\nAdvanced R programming\nR for Data Science\nR graphics cookbook\nFundamentals of data visualization\nData visualization: a practical introduction\nGraphical data analysis with R\nAnalysing ecological data\nMixed Effects Models and Extensions in Ecology with R\nData analysis using regression and multilevel/hierarchical models\nRegression and other stories\nNumerical ecology\nNumerical ecology with R\nHappy git and GitHub for the useR\nGeocomputation with R\nEco-stats: data analysis in ecology\nEcological Models and Data in R\nStatistical Rethinking\nStatistical rethinking with brms, ggplot2, and the tidyverse\nBayesian Population Analysis using WinBugs\nApplied Hierarchical Modeling in Ecology\nEnvironmental Data Analysis",
     "crumbs": [
       "Inicio"
     ]
