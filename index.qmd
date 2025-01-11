@@ -51,17 +51,17 @@ Vuestros comentarios son muy útiles para la mejora continua del curso. Podéis 
 
 - [R for Data Science](http://r4ds.had.co.nz/)
 
-- [R graphics cookbook](http://shop.oreilly.com/product/0636920023135.do)
+- [R graphics cookbook](https://r-graphics.org/)
 
-- [Fundamentals of data visualization](http://serialmentor.com/dataviz/)
+- [Fundamentals of data visualization](https://clauswilke.com/dataviz/)
 
 - [Data visualization: a practical introduction](http://socviz.co/)
 
 - [Graphical data analysis with R](http://www.gradaanwr.net/)
 
-- [Analysing ecological data](http://highstat.com/index.php/analysing-ecological-data)
+- [Analysing ecological data](https://www.highstat.com/index.php/books2)
 
-- [Mixed Effects Models and Extensions in Ecology with R](http://highstat.com/index.php/mixed-effects-models-and-extensions-in-ecology-with-r)
+- [Mixed Effects Models and Extensions in Ecology with R](https://www.highstat.com/index.php/books2)
 
 - [Data analysis using regression and multilevel/hierarchical models](http://www.stat.columbia.edu/~gelman/arm/)
 
@@ -73,15 +73,17 @@ Vuestros comentarios son muy útiles para la mejora continua del curso. Podéis 
 
 - [Happy git and GitHub for the useR](http://happygitwithr.com/)
 
-- [Geocomputation with R](https://geocompr.robinlovelace.net/)
+- [Geocomputation with R](https://r.geocompx.org/)
 
 - [Eco-stats: data analysis in ecology](https://link.springer.com/book/10.1007/978-3-030-88443-7)
 
-- [Ecological Models and Data in R]()
+- [Ecological Models and Data in R](https://math.mcmaster.ca/~bolker/emdbook/index.html)
 
-- [Statistical Rethinking]()
+- [Statistical Rethinking](https://xcelab.net/rm/)
 
-- [Bayesian Population Analysis using WinBugs]()
+- [Statistical rethinking with brms, ggplot2, and the tidyverse](https://bookdown.org/content/4857/)
+
+- [Bayesian Population Analysis using WinBugs](https://www.sciencedirect.com/book/9780123870209/bayesian-population-analysis-using-winbugs)
 
 - [Applied Hierarchical Modeling in Ecology](https://www.mbr-pwrc.usgs.gov/pubanalysis/keryroylebook/)
 
