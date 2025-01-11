@@ -8,7 +8,7 @@ Si se pertenece a una institución académica (universidades, CSIC), es muy reco
 
 Previamente al comienzo del curso **deberá instalarse**:
 
--   La **última versión** de R (https://cloud.r-project.org/)
+-   La **última versión** de [R](https://cloud.r-project.org/)
 
 -   La **última versión** de [Rstudio](https://www.rstudio.com/products/rstudio/download/)
 
