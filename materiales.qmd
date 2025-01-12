@@ -30,7 +30,7 @@ Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com
 
 - GLMM: [slides](slides/GLM_etal.pdf), [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
 
-- Reproducible workflows: [slides](slides/ReproducibleScience.pdf), [Rmd slides](slides/Rmarkdown_intro.html), [examples](other/Rmarkdown_examples.zip)
+- Reproducible workflows: [slides](slides/ReproducibleScience.pdf), [Rmd slides](slides/Rmarkdown_intro.html), [examples](scripts/Rmarkdown_examples.zip)
 
 
 ### JUEVES
