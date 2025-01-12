@@ -89,6 +89,14 @@ Vuestros comentarios son muy útiles para la mejora continua del curso. Podéis 
 
 - [Environmental Data Analysis](https://link.springer.com/book/10.1007/978-3-030-55020-2)
 
+- [Models demystified](https://m-clark.github.io/book-of-models/)
+
+- [Introduction to multilevel modeling](https://www.learn-mlms.com/)
+
+- [Statistics for the experimental biologist](https://www.middleprofessor.com/files/applied-biostatistics_bookdown/_book/index.html)
+
+- [Beyond multiple linear regression](https://bookdown.org/roback/bookdown-BeyondMLR/)
+
 
 
 <br>
