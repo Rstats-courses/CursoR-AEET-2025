@@ -18,7 +18,7 @@ Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com
 
 ### MARTES
 
-- GLM: [slides](slides/GLM_etal.pdf), [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
+- GLM: [slides](slides/GLMs.pdf), [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
 
 - Git & GitHub: [slides](slides/github.html)
 
@@ -26,7 +26,7 @@ Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com
 
 ### MIÉRCOLES
 
-- GLMM: [slides](slides/GLM_etal.pdf), [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
+- GLMM: [slides](slides/GLMs.pdf), [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
 
 - Reproducible workflows: [slides](slides/ReproducibleScience.pdf), [Rmd slides](slides/Rmarkdown_intro.html), [examples](scripts/Rmarkdown_examples.zip)
 
@@ -35,7 +35,7 @@ Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com
 
 - Multivariate analyses: [slides](slides/multivariate.html), [script](scripts/multivariante_notes.R)
 
-- GAM + Bayes: [slides](slides/GLM_etal.pdf), [scripts](https://github.com/Rstats-courses/CursoR-AEET-2022/tree/main/scripts)
+- GAM + Bayes: [slides](slides/GLMs.pdf), [scripts](https://github.com/Rstats-courses/CursoR-AEET-2022/tree/main/scripts)
 
 
 ### VIERNES
