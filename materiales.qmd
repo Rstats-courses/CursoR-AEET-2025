@@ -2,7 +2,7 @@
 title: "Materiales"
 ---
 
-Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/data)
+Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/data)[data_ggplot](data/data_clean.csv)
 
 
 ### LUNES
