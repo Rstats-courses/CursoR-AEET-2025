@@ -13,9 +13,9 @@ Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com
 
 - Common-sense stats: [slides](slides/CommonSense.html)
 
-- Data management: [slides](slides/data_management.html)
+- Data management: [slides](slides/data_management.html), [slides_pdf](slides/data_management.pdf)
 
-- Data visualisation: [slides](slides/data_visualization.html)
+- Data visualisation: [slides](slides/data_visualization.html), [slides_pdf](slides/data_visualization.pdf)
 
 
 ### MARTES
