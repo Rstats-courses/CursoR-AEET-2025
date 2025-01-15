@@ -11,9 +11,9 @@ Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com
 
 - Common-sense stats: [slides](slides/Common_Sense_Stats/CommonSense.html)
 
-- Data management: [slides](slides/data_management.html), [slides_pdf](slides/data_management.pdf)
+- Data management: [slides](slides/data_management.html), [slides_pdf](slides/data_management.pdf), [script](scripts/data_management.R)
 
-- Data visualisation: [slides](slides/data_visualization.html), [slides_pdf](slides/data_visualization.pdf)
+- Data visualisation: [slides](slides/data_visualization.html), [slides_pdf](slides/data_visualization.pdf), [script](scripts/data_visualization.R)
 
 
 ### MARTES
@@ -23,12 +23,11 @@ Datasets: [zip file](data/datasets.zip) [individual datasets](https://github.com
 - Git & GitHub: [slides](slides/github.html)
 
 
-
 ### MIÉRCOLES
 
 - GLMM: [slides](slides/GLMs.pdf), [scripts](https://github.com/Rstats-courses/CursoR-AEET-2025/tree/main/scripts)
 
-- Reproducible workflows: [slides](slides/ReproducibleScience.pdf), [Rmd slides](slides/Rmarkdown_intro.html), [examples](scripts/Rmarkdown_examples.zip)
+- Reproducible workflows: [slides](slides/ReproducibleScience.pdf), [Rmd slides](slides/Rmarkdown_intro.html), [Rmd_examples](scripts/Rmd_examples.zip)
 
 
 ### JUEVES
