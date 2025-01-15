@@ -1,54 +1,12 @@
 #This script plays with null models as a way to learn functions and
   #practice loops.
 
-
-#Let's start by optimizing the code for simple ploting
-
-data(iris)
-#head(iris)
-
-setosa <- subset(iris, Species == "setosa")
-plot(setosa$Sepal.Length ~ setosa$Petal.Length, las = 1,
-     xlab = "Sepal length", ylab = "Petal length")
-versicolor <- subset(iris, Species == "versicolor")
-plot(versicolor$Sepal.Length ~ versicolor$Petal.Length, las = 1,
-     xlab = "Sepal length", ylab = "Petal length")
-virginica <- subset(iris, Species == "virginica")
-plot(virginica$Sepal.Length ~ virginica$Petal.Length, las = 1,
-     xlab = "Sepal length", ylab = "Petal length")
-
-#Better
-species <- c("setosa", "versicolor", "virginica")
-#species <- unique(iris$Species)
-
-for (i in species) {
-  temp <- subset(iris, Species == i)
-  plot(temp$Sepal.Length ~ temp$Petal.Length, las = 1,
-       xlab = "Sepal length", ylab = "Petal length")
-}
-
-#Even better
-plot_species <- function(sp, data) {
-  temp <- subset(data, Species == sp)
-  plot(temp$Sepal.Length ~ temp$Petal.Length, las = 1,
-       xlab = "Sepal length", ylab = "Petal length")
-  }
-lapply(species, plot_species, data = iris)
-#or
-purrr::map(species, plot_species, data = iris)
-
-#Or if data is heavy
-library(future.apply)
-plan(multisession)
-future_lapply(species, plot_species, data = iris)
-
-
 #A simple null model used to test correlations----
 
 #The data
-abundance <- c(1,3,4,7,8,13)
-body_size <- c(9,6,3,3,1,1)
-plot(abundance ~ body_size)
+abundance <- sort(runif(n = 6, min = 1, max = 13))
+body_size <- sort(runif(n = 6, min = 1, max = 9), decreasing = TRUE)
+plot(abundance ~ body_size, las = 1)
 (corr <- cor(abundance,body_size))
 cor.test(abundance,body_size)
 
@@ -62,10 +20,14 @@ cor.test(abundance,body_size)
 cor(sample(body_size, size = length(body_size), replace = FALSE), abundance)
 
 #we do it 1000 times
-cor_dis <- c()
+init <- Sys.time()
+#cor_dis <- c()
+cor_dis <- rep(NA, 1000)
 for (k in 1:1000){
   cor_dis[k] <- cor(sample(body_size, size = length(body_size), replace = FALSE), abundance)
 }
+end <- Sys.time()
+print(init - end)
 
 #plot
 hist(cor_dis)
@@ -78,7 +40,7 @@ length(cor_dis[which(cor_dis < corr)])/1000
 
 #Another example----
 #We observe a pattern: How uneven are abundance distributions?
-abundance <- c(1,3,4,7,8,13)
+abundance <- round(runif(n = 6, min = 1, max = 13))
 #calculate pielou's evenees (shannon/logarithm of number of species)
 #Shannon The proportion of species i relative to the total number of species
 #(pi) is calculated, and then multiplied by the natural logarithm of
@@ -100,25 +62,31 @@ abundance2 <- table(rand)
 #Calculate J of the simulated community
 J2 <- J(abundance2)
 # now make it 1000 times
-out <- c()
-for(i in 1:100){
+init <- Sys.time()
+#out <- c()
+out <- rep(NA, 1000)
+for(i in 1:1000){
   rand <- sample(c(1:6), sum(abundance), replace = TRUE)
-  abundance2 <- hist(rand, breaks = seq(0,6,1))$counts
+  abundance2 <- table(rand)
   J2 <- J(abundance2)
   out <- c(out, J2)
 }
+end <- Sys.time()
+print(init - end)
+
 #calculate p-value
 hist(out)
-lines(c(eve, eve), c(0,20), col = "red")
+lines(c(eve, eve), c(0,1000), col = "red")
 (p <- pnorm(eve, mean = mean(out, na.rm = TRUE), sd = sd(out, na.rm = TRUE)))
 #Or using the real distribution directly
 length(out[which(out < eve)])/1000
 
 #functionalize it
 null_function <- function(x, iterations = 1000){
-  # make a loop
+  #calulate observed values
   n <- length(x)
-  eve <- J(x)
+  eve <- J(x) #observed eveness
+  # make a loop
   out_bs <- c()
   for(i in 1:iterations){
     rand <- sample(c(1:n), sum(x), replace = TRUE)
@@ -133,11 +101,69 @@ null_function <- function(x, iterations = 1000){
               round(out, digits = 2)))
 }
 
-null_function(c(1,2,3,4,5,6,7,8,9))
-null_function(round(runif(100, 30,100)))
+null_function(c(3,4,4,4,5,6,6,8,8))
+null_function(c(1,2,2,3,4,6,8,9,9))
+null_function(c(1,1,1,1,1,1,1,1,100))
 
 #make a package!
 
+#What if the loop is too slow... we can use lapply
+init <- Sys.time()
+null_function(round(runif(1000,30,35)))
+end <- Sys.time()
+print(init - end)
+
+#functionalize using lappy
+null_function_apply <- function(x, iterations = 1000){
+  #calulate observed values
+  n <- length(x)
+  eve <- J(x) #observed eveness
+  # Use lapply for the loop
+  out_bs <- lapply(1:iterations, function(i) {
+    rand <- sample(c(1:n), sum(x), replace = TRUE)
+    x2 <- table(rand)
+    J(x2)
+  })
+  # Convert the list to a vector
+  out_bs <- unlist(out_bs)
+  #And test significance
+  out <- length(out_bs[which(out_bs < eve)])/iterations
+  print(paste("The eveness value observed is ",
+              round(eve, digits = 2), "and the probablility of ocurring by chance is ",
+              round(out, digits = 2)))
+}
+
+init <- Sys.time()
+null_function_apply(round(runif(1000,30,35)))
+end <- Sys.time()
+print(init - end)
+
+#even faster
+#functionalize the part inside of the loop only
+null_function_fapply <- function(x, iterations = 1000){
+  #calulate observed values
+  n <- length(x)
+  eve <- J(x) #observed eveness
+  # Use lapply for the loop
+  out_bs <- future_lapply(1:iterations, function(i) {
+    rand <- sample(c(1:n), sum(x), replace = TRUE)
+    x2 <- table(rand)
+    J(x2)
+  }, future.seed = NULL)
+  # Convert the list to a vector
+  out_bs <- unlist(out_bs)
+  #And test significance
+  out <- length(out_bs[which(out_bs < eve)])/iterations
+  print(paste("The eveness value observed is ",
+              round(eve, digits = 2), "and the probablility of ocurring by chance is ",
+              round(out, digits = 2)))
+}
+library(future.apply)
+plan(multisession)
+init <- Sys.time()
+null_function_fapply(round(runif(1000,30,35)))
+end <- Sys.time()
+print(init - end)
 
 #null model 2.
 #We want to test now if body size is driving the evenness patterns.

@@ -113,8 +113,8 @@ orditorp(Herb_community.mds,display="species",col="red",air=0.01)
 
 #Testing hypothesis PERMANOVA----
 #First test: Are centroids different?
-adonis(Herb_community ~ Habitat, method = "bray")
-adonis(Herb_community ~ DayNight, method = "bray")
+adonis2(Herb_community ~ Habitat, method = "bray")
+adonis2(Herb_community ~ DayNight, method = "bray")
 #Second test: Is the spread different?
 b <- betadisper(vegdist(Herb_community, method = "bray"), group = Habitat)
 anova(b)
