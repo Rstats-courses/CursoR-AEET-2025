@@ -101,7 +101,7 @@
     "href": "materiales.html",
     "title": "Materiales",
     "section": "",
-    "text": "Datasets: zip file individual datasets\n\nLUNES\n\nWelcome: slides\nCommon-sense stats: slides\nData management: slides, slides_pdf\nData visualisation: slides, slides_pdf\n\n\n\nMARTES\n\nGLM: slides, scripts\nGit & GitHub: slides\n\n\n\nMIÉRCOLES\n\nGLMM: slides, scripts\nReproducible workflows: slides, Rmd slides, examples\n\n\n\nJUEVES\n\nMultivariate analyses: slides, script\nGAM + Bayes: slides, scripts\n\n\n\nVIERNES\n\nFunctional programming: script\n\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
+    "text": "Datasets: zip file individual datasets\n\nLUNES\n\nWelcome: slides\nCommon-sense stats: slides\nData management: slides, slides_pdf, script\nData visualisation: slides, slides_pdf, script\n\n\n\nMARTES\n\nGLM: slides, scripts\nGit & GitHub: slides\n\n\n\nMIÉRCOLES\n\nGLMM: slides, scripts\nReproducible workflows: slides, Rmd slides, Rmd_examples\n\n\n\nJUEVES\n\nMultivariate analyses: slides, script\nGAM + Bayes: slides, scripts\n\n\n\nVIERNES\n\nFunctional programming: script\n\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
     "crumbs": [
       "Materiales"
     ]
