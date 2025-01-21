@@ -20,14 +20,12 @@ cor.test(abundance,body_size)
 cor(sample(body_size, size = length(body_size), replace = FALSE), abundance)
 
 #we do it 1000 times
-init <- Sys.time()
 #cor_dis <- c()
 cor_dis <- rep(NA, 1000)
 for (k in 1:1000){
   cor_dis[k] <- cor(sample(body_size, size = length(body_size), replace = FALSE), abundance)
 }
-end <- Sys.time()
-print(init - end)
+
 
 #plot
 hist(cor_dis)
@@ -63,7 +61,7 @@ abundance2 <- table(rand)
 J2 <- J(abundance2)
 # now make it 1000 times
 init <- Sys.time()
-#out <- c()
+#out <- c() #slower
 out <- rep(NA, 1000)
 for(i in 1:1000){
   rand <- sample(c(1:6), sum(abundance), replace = TRUE)
@@ -140,6 +138,7 @@ print(init - end)
 
 #even faster
 #functionalize the part inside of the loop only
+library(future.apply)
 null_function_fapply <- function(x, iterations = 1000){
   #calulate observed values
   n <- length(x)
@@ -158,7 +157,7 @@ null_function_fapply <- function(x, iterations = 1000){
               round(eve, digits = 2), "and the probablility of ocurring by chance is ",
               round(out, digits = 2)))
 }
-library(future.apply)
+
 plan(multisession)
 init <- Sys.time()
 null_function_fapply(round(runif(1000,30,35)))
@@ -172,12 +171,13 @@ print(init - end)
 abundance <- c(1,3,4,7,8,13)
 body_size <- c(9,6,5,3,2,1)
 #Do one iteration
+sum(abundance)
 sample(c(1:6), 36, replace = TRUE, prob = body_size)
 # make a loop
 out_bs <- c()
 for(i in 1:1000){
   rand <- sample(c(1:6), 36, replace = TRUE, prob = body_size)
-  abundance2 <- hist(rand, breaks = seq(0,6,1))$counts
+  abundance2 <- table(rand)
   J2 <- J(abundance2)
   out_bs <- c(out_bs, J2)
 }

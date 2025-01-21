@@ -115,6 +115,14 @@ orditorp(Herb_community.mds,display="species",col="red",air=0.01)
 #First test: Are centroids different?
 adonis2(Herb_community ~ Habitat, method = "bray")
 adonis2(Herb_community ~ DayNight, method = "bray")
+
+adonis2(Herb_community ~ Habitat + DayNight, method = "bray", by = "terms") #by evaluates all predictors sequentially.
+adonis2(Herb_community ~ Habitat + DayNight, method = "bray", by = "margin") #by evaluates all predictors simulateously.
+adonis2(Herb_community ~ Habitat + DayNight, method = "bray", by = "onedf") #or factors of all predictors
+
+#you can explore parameter `strata` to constrain the groups on which the permutations are performed.
+#you can think of this as adding a random factor.
+
 #Second test: Is the spread different?
 b <- betadisper(vegdist(Herb_community, method = "bray"), group = Habitat)
 anova(b)
@@ -172,4 +180,18 @@ anova(mod3)
 #http://environmentalcomputing.net/introduction-to-mvabund/
 #http://www.davidzeleny.net/anadat-r/doku.php/en:pcoa_nmds
 # https://jonlefcheck.net/2012/10/24/nmds-tutorial-in-r/
+
+
+# Other multivariate popular analysis----
+
+#clustering
+hclust()
+
+#K-means
+kmeans()
+
+#Mantel test / Procrustes
+library(ade4) # You might have to install this package.
+mantel.rtest() #low power, better use procrustes
+procrustes()
 
